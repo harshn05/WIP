@@ -1,0 +1,1 @@
+python SETUPWIN.py py2exe --includes sip

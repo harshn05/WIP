@@ -1,0 +1,3256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EvoSim</class>
+ <widget class="QWizard" name="EvoSim">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1076</width>
+    <height>725</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>524287</width>
+    <height>524287</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <italic>false</italic>
+   </font>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::TabFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>EvoSim</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resourceLIST.qrc">
+    <normaloff>:/favicon.png</normaloff>:/favicon.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="toolTip">
+   <string>A Universal Microstructure Generator</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <property name="wizardStyle">
+   <enum>QWizard::ClassicStyle</enum>
+  </property>
+  <property name="titleFormat">
+   <enum>Qt::AutoText</enum>
+  </property>
+  <widget class="QWizardPage" name="wizardPage_2">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="2" column="0">
+     <widget class="QTextEdit" name="textEdit">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:48pt; color:#ff0000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:48pt; color:#ff0000;&quot;&gt;Evo&lt;/span&gt;&lt;span style=&quot; font-size:48pt; color:#0000ff;&quot;&gt;Sim&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:28pt; color:#000000;&quot;&gt;The Microstructure &lt;/span&gt;&lt;span style=&quot; font-size:28pt; color:#ff0000;&quot;&gt;Evo&lt;/span&gt;&lt;span style=&quot; font-size:28pt; color:#000000;&quot;&gt;lution &lt;/span&gt;&lt;span style=&quot; font-size:28pt; color:#0000ff;&quot;&gt;Sim&lt;/span&gt;&lt;span style=&quot; font-size:28pt; color:#000000;&quot;&gt;ulator&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="label_7">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Introduction</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QFrame" name="frame_8">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWizardPage" name="wizardPage1">
+   <layout class="QGridLayout" name="gridLayout_8">
+    <item row="0" column="0" alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <underline>false</underline>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string>MORPHOLOGICAL TEXTURE GENERATOR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1040</width>
+         <height>617</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="1" column="0">
+         <widget class="QTabWidget" name="tabWidget_2D3D">
+          <property name="font">
+           <font>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::StrongFocus</enum>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="tab">
+           <attribute name="title">
+            <string>2D</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_11">
+            <item row="1" column="2">
+             <widget class="QTabWidget" name="tabWidget_2D_IsoAniso">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <weight>50</weight>
+                <bold>false</bold>
+                <strikeout>false</strikeout>
+                <kerning>true</kerning>
+               </font>
+              </property>
+              <property name="mouseTracking">
+               <bool>false</bool>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="tabPosition">
+               <enum>QTabWidget::North</enum>
+              </property>
+              <property name="currentIndex">
+               <number>0</number>
+              </property>
+              <property name="documentMode">
+               <bool>false</bool>
+              </property>
+              <property name="tabsClosable">
+               <bool>false</bool>
+              </property>
+              <property name="movable">
+               <bool>false</bool>
+              </property>
+              <widget class="QWidget" name="tab_3">
+               <attribute name="title">
+                <string>Isotropic</string>
+               </attribute>
+               <layout class="QGridLayout" name="gridLayout_4">
+                <item row="2" column="0">
+                 <widget class="QTabWidget" name="tabWidget_2D_Iso_SiteConti">
+                  <property name="focusPolicy">
+                   <enum>Qt::StrongFocus</enum>
+                  </property>
+                  <property name="currentIndex">
+                   <number>0</number>
+                  </property>
+                  <property name="documentMode">
+                   <bool>false</bool>
+                  </property>
+                  <widget class="QWidget" name="tab_5">
+                   <attribute name="title">
+                    <string>Site Saturated Nucleation</string>
+                   </attribute>
+                   <layout class="QGridLayout" name="gridLayout_5">
+                    <item row="0" column="0" alignment="Qt::AlignRight">
+                     <widget class="QLabel" name="label_17">
+                      <property name="text">
+                       <string>Number of Nucleation Sites  =</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1" alignment="Qt::AlignLeft">
+                     <widget class="QSpinBox" name="numP2DIsoSite">
+                      <property name="minimum">
+                       <number>1</number>
+                      </property>
+                      <property name="maximum">
+                       <number>100000000</number>
+                      </property>
+                      <property name="singleStep">
+                       <number>100</number>
+                      </property>
+                      <property name="value">
+                       <number>200</number>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                  <widget class="QWidget" name="tab_6">
+                   <attribute name="title">
+                    <string>Continuous Nucleation</string>
+                   </attribute>
+                   <layout class="QGridLayout" name="gridLayout_6">
+                    <item row="2" column="2" alignment="Qt::AlignHCenter">
+                     <widget class="QDoubleSpinBox" name="doubleSpinBox_NustopIso2D">
+                      <property name="decimals">
+                       <number>2</number>
+                      </property>
+                      <property name="minimum">
+                       <double>0.000000000000000</double>
+                      </property>
+                      <property name="maximum">
+                       <double>100.000000000000000</double>
+                      </property>
+                      <property name="singleStep">
+                       <double>1.000000000000000</double>
+                      </property>
+                      <property name="value">
+                       <double>95.000000000000000</double>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="1">
+                     <widget class="QLabel" name="label_5">
+                      <property name="font">
+                       <font>
+                        <pointsize>11</pointsize>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>Stop Nucleation at </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="3">
+                     <widget class="QLabel" name="label_2">
+                      <property name="text">
+                       <string>% Phase Transformation</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1" colspan="3">
+                     <widget class="QTextEdit" name="textEdit_NdotIso2D">
+                      <property name="enabled">
+                       <bool>true</bool>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="html">
+                       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;10&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="1" colspan="3">
+                     <widget class="QTextEdit" name="textEdit_GtIso2D">
+                      <property name="enabled">
+                       <bool>true</bool>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="html">
+                       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QPushButton" name="pushButtonarbit">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="resourceLIST.qrc">
+                        <normaloff>:/ndott.png</normaloff>:/ndott.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>70</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="flat">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QPushButton" name="pushButton_2">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="resourceLIST.qrc">
+                        <normaloff>:/gt.png</normaloff>:/gt.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>70</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="flat">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </widget>
+                </item>
+                <item row="3" column="0">
+                 <widget class="QFrame" name="frame_3">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QGridLayout" name="gridLayout_28">
+                   <item row="0" column="1">
+                    <widget class="QCheckBox" name="checkBox_gr2D">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="resourceLIST.qrc">
+                       <normaloff>:/gposition.png</normaloff>:/gposition.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>80</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="3">
+                    <widget class="QTextEdit" name="textEdit_gr2D">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="html">
+                      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;l&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="tab_4">
+               <attribute name="title">
+                <string>Anisotropic</string>
+               </attribute>
+               <layout class="QGridLayout" name="gridLayout_7">
+                <item row="0" column="0">
+                 <widget class="QTabWidget" name="tabWidget_2D_Aniso_SiteConti">
+                  <property name="focusPolicy">
+                   <enum>Qt::StrongFocus</enum>
+                  </property>
+                  <property name="currentIndex">
+                   <number>0</number>
+                  </property>
+                  <widget class="QWidget" name="tab_7">
+                   <attribute name="title">
+                    <string>Site Saturated Nucleation</string>
+                   </attribute>
+                   <layout class="QGridLayout" name="gridLayout">
+                    <item row="2" column="0" colspan="3">
+                     <widget class="QTabWidget" name="tabWidget_2D_Aniso_Site_NeighGeneric">
+                      <property name="focusPolicy">
+                       <enum>Qt::StrongFocus</enum>
+                      </property>
+                      <property name="currentIndex">
+                       <number>0</number>
+                      </property>
+                      <widget class="QWidget" name="tab_9">
+                       <attribute name="title">
+                        <string>Neighborhood Based Growth</string>
+                       </attribute>
+                       <layout class="QGridLayout" name="gridLayout_21">
+                        <item row="2" column="0">
+                         <widget class="QRadioButton" name="radioButton_N8Site">
+                          <property name="text">
+                           <string>N8</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="0" column="0">
+                         <widget class="QRadioButton" name="radioButton_N4Site">
+                          <property name="text">
+                           <string>N4</string>
+                          </property>
+                          <property name="checkable">
+                           <bool>true</bool>
+                          </property>
+                          <property name="checked">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="1" column="0">
+                         <widget class="QRadioButton" name="radioButton_N6Site">
+                          <property name="text">
+                           <string>N6</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="3" column="0">
+                         <widget class="QCheckBox" name="checkBox_gr2D_Aniso_Site_Neigh">
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset resource="resourceLIST.qrc">
+                            <normaloff>:/gposition.png</normaloff>:/gposition.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>80</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="3" column="1">
+                         <widget class="QTextEdit" name="textEdit_gr2D_Site_Neigh">
+                          <property name="enabled">
+                           <bool>false</bool>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="html">
+                           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;randint(1,3)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                      <widget class="QWidget" name="tab_12">
+                       <attribute name="title">
+                        <string>Generic Growth</string>
+                       </attribute>
+                       <layout class="QGridLayout" name="gridLayout_10">
+                        <item row="0" column="1">
+                         <widget class="QTabWidget" name="tabWidget_2D_Aniso_Site_Generic_EllipDirText">
+                          <property name="focusPolicy">
+                           <enum>Qt::StrongFocus</enum>
+                          </property>
+                          <property name="currentIndex">
+                           <number>0</number>
+                          </property>
+                          <widget class="QWidget" name="tab_10">
+                           <attribute name="title">
+                            <string>Elliptical</string>
+                           </attribute>
+                           <layout class="QGridLayout" name="gridLayout_22">
+                            <item row="5" column="3" alignment="Qt::AlignHCenter">
+                             <widget class="QDoubleSpinBox" name="doubleSpinBox_Rrvector">
+                              <property name="minimum">
+                               <double>0.010000000000000</double>
+                              </property>
+                              <property name="maximum">
+                               <double>99999.000000000000000</double>
+                              </property>
+                              <property name="value">
+                               <double>2.000000000000000</double>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="6" column="0" alignment="Qt::AlignLeft">
+                             <widget class="QCheckBox" name="checkBox_adotrvector">
+                              <property name="text">
+                               <string/>
+                              </property>
+                              <property name="icon">
+                               <iconset resource="resourceLIST.qrc">
+                                <normaloff>:/adotr.png</normaloff>:/adotr.png</iconset>
+                              </property>
+                              <property name="iconSize">
+                               <size>
+                                <width>70</width>
+                                <height>25</height>
+                               </size>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="6" column="1" colspan="3">
+                             <widget class="QTextEdit" name="textEdit_adotrvector">
+                              <property name="enabled">
+                               <bool>false</bool>
+                              </property>
+                              <property name="minimumSize">
+                               <size>
+                                <width>0</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="html">
+                               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;exp(-5*x*y/1000000)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="2" column="0" alignment="Qt::AlignLeft">
+                             <widget class="QCheckBox" name="checkBox_thetarvector">
+                              <property name="text">
+                               <string/>
+                              </property>
+                              <property name="icon">
+                               <iconset resource="resourceLIST.qrc">
+                                <normaloff>:/thetarvector.png</normaloff>:/thetarvector.png</iconset>
+                              </property>
+                              <property name="iconSize">
+                               <size>
+                                <width>70</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="5" column="1" colspan="2">
+                             <widget class="QTextEdit" name="textEdit_Rrvector">
+                              <property name="enabled">
+                               <bool>false</bool>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="html">
+                               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;choice([1,4])&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="5" column="0">
+                             <widget class="QCheckBox" name="checkBox_Rrvector">
+                              <property name="enabled">
+                               <bool>true</bool>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="palette">
+                               <palette>
+                                <active>
+                                 <colorrole role="WindowText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>76</red>
+                                    <green>76</green>
+                                    <blue>76</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="Text">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>60</red>
+                                    <green>60</green>
+                                    <blue>60</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="ButtonText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>76</red>
+                                    <green>76</green>
+                                    <blue>76</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="Highlight">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>240</red>
+                                    <green>119</green>
+                                    <blue>70</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="HighlightedText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>254</red>
+                                    <green>254</green>
+                                    <blue>254</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                </active>
+                                <inactive>
+                                 <colorrole role="WindowText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>76</red>
+                                    <green>76</green>
+                                    <blue>76</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="Text">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>60</red>
+                                    <green>60</green>
+                                    <blue>60</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="ButtonText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>76</red>
+                                    <green>76</green>
+                                    <blue>76</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="Highlight">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>228</red>
+                                    <green>226</green>
+                                    <blue>224</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="HighlightedText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>42</red>
+                                    <green>42</green>
+                                    <blue>42</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                </inactive>
+                                <disabled>
+                                 <colorrole role="WindowText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>76</red>
+                                    <green>76</green>
+                                    <blue>76</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="Text">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>60</red>
+                                    <green>60</green>
+                                    <blue>60</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="ButtonText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>76</red>
+                                    <green>76</green>
+                                    <blue>76</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="Highlight">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>228</red>
+                                    <green>226</green>
+                                    <blue>224</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="HighlightedText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>254</red>
+                                    <green>254</green>
+                                    <blue>254</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                </disabled>
+                               </palette>
+                              </property>
+                              <property name="text">
+                               <string/>
+                              </property>
+                              <property name="icon">
+                               <iconset resource="resourceLIST.qrc">
+                                <normaloff>:/Rrvector.png</normaloff>:/Rrvector.png</iconset>
+                              </property>
+                              <property name="iconSize">
+                               <size>
+                                <width>70</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="2" column="1" colspan="2">
+                             <widget class="QTextEdit" name="textEdit_thetarvector">
+                              <property name="enabled">
+                               <bool>false</bool>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="html">
+                               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;choice([-pi/4,pi/4])&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="1" column="0" alignment="Qt::AlignLeft">
+                             <widget class="QLabel" name="label_13">
+                              <property name="text">
+                               <string>Evaluation Order</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="1" column="1" alignment="Qt::AlignLeft">
+                             <widget class="QComboBox" name="comboBox_order">
+                              <property name="iconSize">
+                               <size>
+                                <width>90</width>
+                                <height>20</height>
+                               </size>
+                              </property>
+                              <item>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="icon">
+                                <iconset resource="resourceLIST.qrc">
+                                 <normaloff>:/thetaRa.png</normaloff>:/thetaRa.png</iconset>
+                               </property>
+                              </item>
+                              <item>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="icon">
+                                <iconset resource="resourceLIST.qrc">
+                                 <normaloff>:/thetaar.png</normaloff>:/thetaar.png</iconset>
+                               </property>
+                              </item>
+                              <item>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="icon">
+                                <iconset resource="resourceLIST.qrc">
+                                 <normaloff>:/Rthetaa.png</normaloff>:/Rthetaa.png</iconset>
+                               </property>
+                              </item>
+                              <item>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="icon">
+                                <iconset resource="resourceLIST.qrc">
+                                 <normaloff>:/Ratheta.png</normaloff>:/Ratheta.png</iconset>
+                               </property>
+                              </item>
+                              <item>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="icon">
+                                <iconset resource="resourceLIST.qrc">
+                                 <normaloff>:/Athetar.png</normaloff>:/Athetar.png</iconset>
+                               </property>
+                              </item>
+                              <item>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="icon">
+                                <iconset resource="resourceLIST.qrc">
+                                 <normaloff>:/Artheta.png</normaloff>:/Artheta.png</iconset>
+                               </property>
+                              </item>
+                             </widget>
+                            </item>
+                           </layout>
+                          </widget>
+                          <widget class="QWidget" name="tab_13">
+                           <attribute name="title">
+                            <string>User Defined</string>
+                           </attribute>
+                           <layout class="QGridLayout" name="gridLayout_35">
+                            <item row="1" column="0" alignment="Qt::AlignHCenter">
+                             <widget class="QPushButton" name="pushButton_13">
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="text">
+                               <string/>
+                              </property>
+                              <property name="icon">
+                               <iconset resource="resourceLIST.qrc">
+                                <normaloff>:/gphi.png</normaloff>:/gphi.png</iconset>
+                              </property>
+                              <property name="iconSize">
+                               <size>
+                                <width>70</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="flat">
+                               <bool>true</bool>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="2" column="1" colspan="3">
+                             <widget class="QTextEdit" name="textEdit_Grvector">
+                              <property name="enabled">
+                               <bool>false</bool>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="html">
+                               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;rand(0,pi)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="3" column="1" colspan="3">
+                             <widget class="QTextEdit" name="textEdit_thetarvector_3">
+                              <property name="enabled">
+                               <bool>false</bool>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="html">
+                               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;rand(0,pi)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="2" column="0" alignment="Qt::AlignLeft">
+                             <widget class="QCheckBox" name="checkBox_Grvector">
+                              <property name="text">
+                               <string/>
+                              </property>
+                              <property name="icon">
+                               <iconset resource="resourceLIST.qrc">
+                                <normaloff>:/gposition.png</normaloff>:/gposition.png</iconset>
+                              </property>
+                              <property name="iconSize">
+                               <size>
+                                <width>70</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="3" column="0" alignment="Qt::AlignLeft">
+                             <widget class="QCheckBox" name="checkBox_thetarvector_3">
+                              <property name="text">
+                               <string/>
+                              </property>
+                              <property name="icon">
+                               <iconset resource="resourceLIST.qrc">
+                                <normaloff>:/thetarvector.png</normaloff>:/thetarvector.png</iconset>
+                              </property>
+                              <property name="iconSize">
+                               <size>
+                                <width>70</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="1" column="1" colspan="3">
+                             <widget class="QTextEdit" name="textEdit_Gphi">
+                              <property name="enabled">
+                               <bool>true</bool>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="html">
+                               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;abs(sin(phi)/4)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="0" column="0">
+                             <widget class="QLabel" name="label_18">
+                              <property name="text">
+                               <string>Angular Resolution=</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="0" column="1" colspan="3" alignment="Qt::AlignLeft">
+                             <widget class="QSpinBox" name="angresolution">
+                              <property name="minimum">
+                               <number>1</number>
+                              </property>
+                              <property name="maximum">
+                               <number>100000000</number>
+                              </property>
+                              <property name="singleStep">
+                               <number>100</number>
+                              </property>
+                              <property name="value">
+                               <number>1000</number>
+                              </property>
+                             </widget>
+                            </item>
+                           </layout>
+                          </widget>
+                          <widget class="QWidget" name="tab_14">
+                           <attribute name="title">
+                            <string>Texture Based</string>
+                           </attribute>
+                           <layout class="QGridLayout" name="gridLayout_33">
+                            <item row="1" column="0" colspan="2">
+                             <widget class="QTabWidget" name="tabWidget_2DTextureBased">
+                              <property name="currentIndex">
+                               <number>0</number>
+                              </property>
+                              <widget class="QWidget" name="tab_23">
+                               <attribute name="title">
+                                <string>Ellipsoidal</string>
+                               </attribute>
+                               <layout class="QGridLayout" name="gridLayout_34">
+                                <item row="0" column="0">
+                                 <widget class="QCheckBox" name="checkBox_Rab">
+                                  <property name="text">
+                                   <string/>
+                                  </property>
+                                  <property name="icon">
+                                   <iconset resource="resourceLIST.qrc">
+                                    <normaloff>:/rabyb.png</normaloff>:/rabyb.png</iconset>
+                                  </property>
+                                  <property name="iconSize">
+                                   <size>
+                                    <width>120</width>
+                                    <height>30</height>
+                                   </size>
+                                  </property>
+                                 </widget>
+                                </item>
+                                <item row="0" column="1">
+                                 <widget class="QTextEdit" name="textEdit_Rab">
+                                  <property name="enabled">
+                                   <bool>false</bool>
+                                  </property>
+                                  <property name="maximumSize">
+                                   <size>
+                                    <width>16777215</width>
+                                    <height>30</height>
+                                   </size>
+                                  </property>
+                                  <property name="html">
+                                   <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;rand(1,4)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                                  </property>
+                                 </widget>
+                                </item>
+                                <item row="0" column="2">
+                                 <widget class="QDoubleSpinBox" name="doubleSpinBox_Rab">
+                                  <property name="minimum">
+                                   <double>0.500000000000000</double>
+                                  </property>
+                                  <property name="maximum">
+                                   <double>100.000000000000000</double>
+                                  </property>
+                                  <property name="value">
+                                   <double>2.000000000000000</double>
+                                  </property>
+                                 </widget>
+                                </item>
+                                <item row="1" column="0">
+                                 <widget class="QCheckBox" name="checkBox_Rac">
+                                  <property name="text">
+                                   <string/>
+                                  </property>
+                                  <property name="icon">
+                                   <iconset resource="resourceLIST.qrc">
+                                    <normaloff>:/rabyc.png</normaloff>:/rabyc.png</iconset>
+                                  </property>
+                                  <property name="iconSize">
+                                   <size>
+                                    <width>120</width>
+                                    <height>30</height>
+                                   </size>
+                                  </property>
+                                 </widget>
+                                </item>
+                                <item row="1" column="1">
+                                 <widget class="QTextEdit" name="textEdit_Rac">
+                                  <property name="enabled">
+                                   <bool>false</bool>
+                                  </property>
+                                  <property name="maximumSize">
+                                   <size>
+                                    <width>16777215</width>
+                                    <height>30</height>
+                                   </size>
+                                  </property>
+                                  <property name="html">
+                                   <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;rand(1,4)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                                  </property>
+                                 </widget>
+                                </item>
+                                <item row="1" column="2">
+                                 <widget class="QDoubleSpinBox" name="doubleSpinBox_Rac">
+                                  <property name="minimum">
+                                   <double>0.500000000000000</double>
+                                  </property>
+                                  <property name="maximum">
+                                   <double>100.000000000000000</double>
+                                  </property>
+                                  <property name="value">
+                                   <double>2.000000000000000</double>
+                                  </property>
+                                 </widget>
+                                </item>
+                                <item row="2" column="0">
+                                 <widget class="QCheckBox" name="checkBox_adotrvec">
+                                  <property name="text">
+                                   <string/>
+                                  </property>
+                                  <property name="icon">
+                                   <iconset resource="resourceLIST.qrc">
+                                    <normaloff>:/adotr.png</normaloff>:/adotr.png</iconset>
+                                  </property>
+                                  <property name="iconSize">
+                                   <size>
+                                    <width>120</width>
+                                    <height>30</height>
+                                   </size>
+                                  </property>
+                                 </widget>
+                                </item>
+                                <item row="2" column="1" colspan="2">
+                                 <widget class="QTextEdit" name="textEdit_adotrvec">
+                                  <property name="enabled">
+                                   <bool>false</bool>
+                                  </property>
+                                  <property name="maximumSize">
+                                   <size>
+                                    <width>16777215</width>
+                                    <height>30</height>
+                                   </size>
+                                  </property>
+                                  <property name="html">
+                                   <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;rand(1,4)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                                  </property>
+                                 </widget>
+                                </item>
+                               </layout>
+                              </widget>
+                              <widget class="QWidget" name="tab_24">
+                               <attribute name="title">
+                                <string>User Defined</string>
+                               </attribute>
+                              </widget>
+                             </widget>
+                            </item>
+                            <item row="0" column="0" colspan="2" alignment="Qt::AlignHCenter">
+                             <widget class="QPushButton" name="pushButton_5">
+                              <property name="font">
+                               <font>
+                                <pointsize>10</pointsize>
+                                <weight>50</weight>
+                                <italic>true</italic>
+                                <bold>false</bold>
+                               </font>
+                              </property>
+                              <property name="text">
+                               <string>Click here to Generate CRYSTALLOGRAPHIC TEXTURE CANVAS !</string>
+                              </property>
+                              <property name="flat">
+                               <bool>false</bool>
+                              </property>
+                             </widget>
+                            </item>
+                           </layout>
+                          </widget>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_16">
+                      <property name="text">
+                       <string>Number of Nucleation Sites =</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1" alignment="Qt::AlignHCenter">
+                     <widget class="QSpinBox" name="numP2DAnisoSite">
+                      <property name="minimum">
+                       <number>1</number>
+                      </property>
+                      <property name="maximum">
+                       <number>100000000</number>
+                      </property>
+                      <property name="singleStep">
+                       <number>100</number>
+                      </property>
+                      <property name="value">
+                       <number>200</number>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                  <widget class="QWidget" name="tab_8">
+                   <attribute name="title">
+                    <string>Continuous Nucleation</string>
+                   </attribute>
+                   <layout class="QGridLayout" name="gridLayout_27">
+                    <item row="1" column="1">
+                     <widget class="QTabWidget" name="tabWidget_2D_Aniso_Conti_NeighGeneric">
+                      <property name="focusPolicy">
+                       <enum>Qt::StrongFocus</enum>
+                      </property>
+                      <property name="currentIndex">
+                       <number>0</number>
+                      </property>
+                      <widget class="QWidget" name="tab_11">
+                       <attribute name="title">
+                        <string>Neighborhood Based Growth</string>
+                       </attribute>
+                       <layout class="QGridLayout" name="gridLayout_24">
+                        <item row="9" column="2">
+                         <widget class="QLabel" name="label_4">
+                          <property name="text">
+                           <string>% Phase Transformation</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="3" column="1" colspan="2">
+                         <widget class="QTextEdit" name="textEdit_Ndot_Aniso_Neigh">
+                          <property name="enabled">
+                           <bool>true</bool>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="html">
+                           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;10&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="0" column="0">
+                         <widget class="QRadioButton" name="radioButton_N4Conti">
+                          <property name="text">
+                           <string>N4</string>
+                          </property>
+                          <property name="checkable">
+                           <bool>true</bool>
+                          </property>
+                          <property name="checked">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="9" column="0">
+                         <widget class="QLabel" name="label_10">
+                          <property name="font">
+                           <font>
+                            <pointsize>11</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Stop Nucleation at </string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="9" column="1">
+                         <widget class="QDoubleSpinBox" name="doubleSpinBox_NustopAnisoNeigh">
+                          <property name="decimals">
+                           <number>2</number>
+                          </property>
+                          <property name="minimum">
+                           <double>0.000000000000000</double>
+                          </property>
+                          <property name="maximum">
+                           <double>100.000000000000000</double>
+                          </property>
+                          <property name="singleStep">
+                           <double>1.000000000000000</double>
+                          </property>
+                          <property name="value">
+                           <double>95.000000000000000</double>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="0" column="1">
+                         <widget class="QRadioButton" name="radioButton_N6Conti">
+                          <property name="text">
+                           <string>N6</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="0" column="2">
+                         <widget class="QRadioButton" name="radioButton_N8Conti">
+                          <property name="text">
+                           <string>N8</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="6" column="0" alignment="Qt::AlignLeft">
+                         <widget class="QCheckBox" name="checkBox_gr2D_Aniso_Conti_Neigh">
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset resource="resourceLIST.qrc">
+                            <normaloff>:/gposition.png</normaloff>:/gposition.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>80</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="5" column="1" colspan="2">
+                         <widget class="QTextEdit" name="textEdit_Gt_Aniso_Neigh">
+                          <property name="enabled">
+                           <bool>true</bool>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="html">
+                           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="6" column="1" colspan="2">
+                         <widget class="QTextEdit" name="textEdit_gr2D_aniso_conti_neigh">
+                          <property name="enabled">
+                           <bool>false</bool>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="html">
+                           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;randint(1,3)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="3" column="0" alignment="Qt::AlignLeft">
+                         <widget class="QPushButton" name="pushButton_6">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset resource="resourceLIST.qrc">
+                            <normaloff>:/ndott.png</normaloff>:/ndott.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>70</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="flat">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="5" column="0" alignment="Qt::AlignLeft">
+                         <widget class="QPushButton" name="pushButton_7">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset resource="resourceLIST.qrc">
+                            <normaloff>:/gt.png</normaloff>:/gt.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>70</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="flat">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                      <widget class="QWidget" name="tab_15">
+                       <attribute name="title">
+                        <string>Generic Growth</string>
+                       </attribute>
+                       <layout class="QGridLayout" name="gridLayout_25">
+                        <item row="0" column="1">
+                         <widget class="QTabWidget" name="tabWidget_2D_Aniso_Conti_Generic_EllipDirText">
+                          <property name="focusPolicy">
+                           <enum>Qt::StrongFocus</enum>
+                          </property>
+                          <property name="currentIndex">
+                           <number>0</number>
+                          </property>
+                          <widget class="QWidget" name="tab_18">
+                           <attribute name="title">
+                            <string>Elliptical</string>
+                           </attribute>
+                           <layout class="QGridLayout" name="gridLayout_17">
+                            <item row="7" column="0">
+                             <widget class="QLabel" name="label_12">
+                              <property name="font">
+                               <font>
+                                <pointsize>11</pointsize>
+                               </font>
+                              </property>
+                              <property name="text">
+                               <string>Stop Nucleation </string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="7" column="1">
+                             <widget class="QDoubleSpinBox" name="doubleSpinBox_NustopAnisoEllip">
+                              <property name="decimals">
+                               <number>2</number>
+                              </property>
+                              <property name="minimum">
+                               <double>0.000000000000000</double>
+                              </property>
+                              <property name="maximum">
+                               <double>100.000000000000000</double>
+                              </property>
+                              <property name="singleStep">
+                               <double>1.000000000000000</double>
+                              </property>
+                              <property name="value">
+                               <double>95.000000000000000</double>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="6" column="1" colspan="3">
+                             <widget class="QTextEdit" name="textEdit_adotrvector_2">
+                              <property name="enabled">
+                               <bool>false</bool>
+                              </property>
+                              <property name="minimumSize">
+                               <size>
+                                <width>0</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="html">
+                               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;randint(1,3)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="4" column="0">
+                             <widget class="QCheckBox" name="checkBox_thetarvector_2">
+                              <property name="text">
+                               <string/>
+                              </property>
+                              <property name="icon">
+                               <iconset resource="resourceLIST.qrc">
+                                <normaloff>:/thetarvector.png</normaloff>:/thetarvector.png</iconset>
+                              </property>
+                              <property name="iconSize">
+                               <size>
+                                <width>70</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="5" column="3">
+                             <widget class="QDoubleSpinBox" name="doubleSpinBox_Rrvector_2">
+                              <property name="minimum">
+                               <double>0.010000000000000</double>
+                              </property>
+                              <property name="maximum">
+                               <double>99999.000000000000000</double>
+                              </property>
+                              <property name="value">
+                               <double>2.000000000000000</double>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="5" column="0">
+                             <widget class="QCheckBox" name="checkBox_Rrvector_2">
+                              <property name="enabled">
+                               <bool>true</bool>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="palette">
+                               <palette>
+                                <active>
+                                 <colorrole role="WindowText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>76</red>
+                                    <green>76</green>
+                                    <blue>76</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="Text">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>60</red>
+                                    <green>60</green>
+                                    <blue>60</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="ButtonText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>76</red>
+                                    <green>76</green>
+                                    <blue>76</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="Highlight">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>240</red>
+                                    <green>119</green>
+                                    <blue>70</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="HighlightedText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>254</red>
+                                    <green>254</green>
+                                    <blue>254</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                </active>
+                                <inactive>
+                                 <colorrole role="WindowText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>76</red>
+                                    <green>76</green>
+                                    <blue>76</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="Text">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>60</red>
+                                    <green>60</green>
+                                    <blue>60</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="ButtonText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>76</red>
+                                    <green>76</green>
+                                    <blue>76</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="Highlight">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>228</red>
+                                    <green>226</green>
+                                    <blue>224</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="HighlightedText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>42</red>
+                                    <green>42</green>
+                                    <blue>42</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                </inactive>
+                                <disabled>
+                                 <colorrole role="WindowText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>76</red>
+                                    <green>76</green>
+                                    <blue>76</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="Text">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>60</red>
+                                    <green>60</green>
+                                    <blue>60</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="ButtonText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>76</red>
+                                    <green>76</green>
+                                    <blue>76</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="Highlight">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>228</red>
+                                    <green>226</green>
+                                    <blue>224</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                 <colorrole role="HighlightedText">
+                                  <brush brushstyle="SolidPattern">
+                                   <color alpha="255">
+                                    <red>254</red>
+                                    <green>254</green>
+                                    <blue>254</blue>
+                                   </color>
+                                  </brush>
+                                 </colorrole>
+                                </disabled>
+                               </palette>
+                              </property>
+                              <property name="text">
+                               <string/>
+                              </property>
+                              <property name="icon">
+                               <iconset resource="resourceLIST.qrc">
+                                <normaloff>:/Rrvector.png</normaloff>:/Rrvector.png</iconset>
+                              </property>
+                              <property name="iconSize">
+                               <size>
+                                <width>70</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="2" column="0">
+                             <widget class="QPushButton" name="pushButton_12">
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="text">
+                               <string/>
+                              </property>
+                              <property name="icon">
+                               <iconset resource="resourceLIST.qrc">
+                                <normaloff>:/adott.png</normaloff>:/adott.png</iconset>
+                              </property>
+                              <property name="iconSize">
+                               <size>
+                                <width>70</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="flat">
+                               <bool>true</bool>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="1" column="1" colspan="3">
+                             <widget class="QTextEdit" name="textEdit_Ndot_Aniso_Ellip">
+                              <property name="enabled">
+                               <bool>true</bool>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="html">
+                               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;10&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="6" column="0">
+                             <widget class="QCheckBox" name="checkBox_adotrvector_2">
+                              <property name="text">
+                               <string/>
+                              </property>
+                              <property name="icon">
+                               <iconset resource="resourceLIST.qrc">
+                                <normaloff>:/adotr.png</normaloff>:/adotr.png</iconset>
+                              </property>
+                              <property name="iconSize">
+                               <size>
+                                <width>70</width>
+                                <height>25</height>
+                               </size>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="2" column="1" colspan="3">
+                             <widget class="QTextEdit" name="textEdit_Aniso_Conti_adott">
+                              <property name="enabled">
+                               <bool>true</bool>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="html">
+                               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="5" column="1" colspan="2">
+                             <widget class="QTextEdit" name="textEdit_Rrvector_2">
+                              <property name="enabled">
+                               <bool>false</bool>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="html">
+                               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;choice([1,4])&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="1" column="0">
+                             <widget class="QPushButton" name="pushButton_11">
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="text">
+                               <string/>
+                              </property>
+                              <property name="icon">
+                               <iconset resource="resourceLIST.qrc">
+                                <normaloff>:/ndott.png</normaloff>:/ndott.png</iconset>
+                              </property>
+                              <property name="iconSize">
+                               <size>
+                                <width>70</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="flat">
+                               <bool>true</bool>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="4" column="1" colspan="3">
+                             <widget class="QTextEdit" name="textEdit_thetarvector_2">
+                              <property name="enabled">
+                               <bool>false</bool>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="html">
+                               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;choice([-pi/4,pi/4])&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="7" column="2">
+                             <widget class="QLabel" name="label_11">
+                              <property name="text">
+                               <string>% Phase Transformation</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="3" column="1" colspan="2" alignment="Qt::AlignLeft">
+                             <widget class="QComboBox" name="comboBox_order2">
+                              <property name="iconSize">
+                               <size>
+                                <width>90</width>
+                                <height>20</height>
+                               </size>
+                              </property>
+                              <item>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="icon">
+                                <iconset resource="resourceLIST.qrc">
+                                 <normaloff>:/thetaRa.png</normaloff>:/thetaRa.png</iconset>
+                               </property>
+                              </item>
+                              <item>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="icon">
+                                <iconset resource="resourceLIST.qrc">
+                                 <normaloff>:/thetaar.png</normaloff>:/thetaar.png</iconset>
+                               </property>
+                              </item>
+                              <item>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="icon">
+                                <iconset resource="resourceLIST.qrc">
+                                 <normaloff>:/Rthetaa.png</normaloff>:/Rthetaa.png</iconset>
+                               </property>
+                              </item>
+                              <item>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="icon">
+                                <iconset resource="resourceLIST.qrc">
+                                 <normaloff>:/Ratheta.png</normaloff>:/Ratheta.png</iconset>
+                               </property>
+                              </item>
+                              <item>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="icon">
+                                <iconset resource="resourceLIST.qrc">
+                                 <normaloff>:/Athetar.png</normaloff>:/Athetar.png</iconset>
+                               </property>
+                              </item>
+                              <item>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="icon">
+                                <iconset resource="resourceLIST.qrc">
+                                 <normaloff>:/Artheta.png</normaloff>:/Artheta.png</iconset>
+                               </property>
+                              </item>
+                             </widget>
+                            </item>
+                            <item row="3" column="0" alignment="Qt::AlignLeft">
+                             <widget class="QLabel" name="label_14">
+                              <property name="text">
+                               <string>Evaluation Order</string>
+                              </property>
+                             </widget>
+                            </item>
+                           </layout>
+                          </widget>
+                          <widget class="QWidget" name="tab_19">
+                           <attribute name="title">
+                            <string>Direction Based</string>
+                           </attribute>
+                          </widget>
+                          <widget class="QWidget" name="tab_20">
+                           <attribute name="title">
+                            <string>Texture Based</string>
+                           </attribute>
+                          </widget>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QFrame" name="frame_4">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::NoFrame</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Sunken</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_15">
+               <item row="4" column="1">
+                <widget class="QFrame" name="frame_2">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>120</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Sunken</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_19">
+                  <item row="4" column="0" colspan="2">
+                   <widget class="QTextEdit" name="framepath">
+                    <property name="enabled">
+                     <bool>false</bool>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>9</pointsize>
+                     </font>
+                    </property>
+                    <property name="html">
+                     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;./&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QCheckBox" name="shouldwesave">
+                    <property name="text">
+                     <string>Save Frames to?   </string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="QToolButton" name="browsepath">
+                    <property name="enabled">
+                     <bool>false</bool>
+                    </property>
+                    <property name="text">
+                     <string>Browse...</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QFrame" name="frame">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Plain</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_29">
+                  <item row="1" column="2" alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="label_3">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QLabel" name="label">
+                    <property name="text">
+                     <string>CA Grid</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="3">
+                   <widget class="QSpinBox" name="dimY2D">
+                    <property name="minimum">
+                     <number>4</number>
+                    </property>
+                    <property name="maximum">
+                     <number>50000</number>
+                    </property>
+                    <property name="singleStep">
+                     <number>100</number>
+                    </property>
+                    <property name="value">
+                     <number>400</number>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1">
+                   <widget class="QSpinBox" name="dimX2D">
+                    <property name="minimum">
+                     <number>4</number>
+                    </property>
+                    <property name="maximum">
+                     <number>50000</number>
+                    </property>
+                    <property name="singleStep">
+                     <number>100</number>
+                    </property>
+                    <property name="value">
+                     <number>400</number>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QFrame" name="frame_6">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>80</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Sunken</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_23">
+                  <item row="0" column="0">
+                   <widget class="QCheckBox" name="checkBox_pdelNxy">
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="resourceLIST.qrc">
+                      <normaloff>:/rhorvector.png</normaloff>:/rhorvector.png</iconset>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>100</width>
+                      <height>27</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="0" colspan="2">
+                   <widget class="QTextEdit" name="textEdit_pdelNxy">
+                    <property name="enabled">
+                     <bool>false</bool>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>27</height>
+                     </size>
+                    </property>
+                    <property name="html">
+                     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;x*y&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="QCheckBox" name="checkBox_labelsort">
+                    <property name="text">
+                     <string>Label Sort ?</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="7" column="1">
+                <widget class="QFrame" name="frame_10">
+                 <property name="maximumSize">
+                  <size>
+                   <width>300</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Sunken</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_36">
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QRadioButton" name="radioButton_norec">
+                    <property name="text">
+                     <string>Normal - No Recursion</string>
+                    </property>
+                    <property name="checked">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0" colspan="2">
+                   <widget class="QRadioButton" name="radioButton_yesrec">
+                    <property name="text">
+                     <string>Recursive Centroid Tesselation</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="16" column="0">
+                   <widget class="QPushButton" name="pushButton">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <italic>false</italic>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>EVOLVE</string>
+                    </property>
+                    <property name="flat">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="16" column="1">
+                   <widget class="QLCDNumber" name="lcd">
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::NoFrame</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Sunken</enum>
+                    </property>
+                    <property name="smallDecimalPoint">
+                     <bool>false</bool>
+                    </property>
+                    <property name="digitCount">
+                     <number>5</number>
+                    </property>
+                    <property name="segmentStyle">
+                     <enum>QLCDNumber::Flat</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="0">
+                   <widget class="QCheckBox" name="animshow">
+                    <property name="text">
+                     <string>Show Evolution?</string>
+                    </property>
+                    <property name="checked">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="1">
+                   <widget class="QComboBox" name="comboBox">
+                    <property name="enabled">
+                     <bool>false</bool>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>70</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <item>
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="resourceLIST.qrc">
+                       <normaloff>:/gray.png</normaloff>:/gray.png</iconset>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="resourceLIST.qrc">
+                       <normaloff>:/col.png</normaloff>:/col.png</iconset>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="resourceLIST.qrc">
+                       <normaloff>:/colgray.png</normaloff>:/colgray.png</iconset>
+                     </property>
+                    </item>
+                   </widget>
+                  </item>
+                  <item row="4" column="0" alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="label_15">
+                    <property name="text">
+                     <string>Frame pause in ms</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="4" column="1">
+                   <widget class="QSpinBox" name="framepause">
+                    <property name="enabled">
+                     <bool>false</bool>
+                    </property>
+                    <property name="minimum">
+                     <number>1</number>
+                    </property>
+                    <property name="maximum">
+                     <number>100</number>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QFrame" name="frame_7">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Sunken</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_16">
+                  <item row="0" column="0">
+                   <widget class="QCheckBox" name="checkBox_useseed">
+                    <property name="text">
+                     <string>Use RNG Seed?</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="QSpinBox" name="spinBox_myseed">
+                    <property name="enabled">
+                     <bool>false</bool>
+                    </property>
+                    <property name="minimum">
+                     <number>1</number>
+                    </property>
+                    <property name="maximum">
+                     <number>999999999</number>
+                    </property>
+                    <property name="singleStep">
+                     <number>1</number>
+                    </property>
+                    <property name="value">
+                     <number>1</number>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_2">
+           <attribute name="title">
+            <string>3D</string>
+           </attribute>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWizardPage" name="wizardPage2">
+   <layout class="QGridLayout" name="gridLayout_9">
+    <item row="1" column="0">
+     <widget class="QScrollArea" name="scrollArea_2">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1038</width>
+         <height>562</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_12">
+        <item row="3" column="0">
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="title">
+           <string>CHOOSE TEXTURE</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_13">
+           <item row="1" column="0">
+            <widget class="QRadioButton" name="radioButton_generic">
+             <property name="text">
+              <string>Generic Texture</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QRadioButton" name="radioButton_sheet">
+             <property name="text">
+              <string>Sheet Texture</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QRadioButton" name="radioButton_fiber">
+             <property name="text">
+              <string>Fiber Texture</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QRadioButton" name="radioButton_random">
+             <property name="text">
+              <string>Uniform Random Texture</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="2" column="0" alignment="Qt::AlignHCenter">
+         <widget class="QComboBox" name="comboBox_prepost">
+          <item>
+           <property name="text">
+            <string>Post Generate</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Pre Generate</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QTreeView" name="treeView_Texture"/>
+        </item>
+        <item row="0" column="0" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="label_19">
+          <property name="text">
+           <string>Grain Structure</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="label_20">
+          <property name="text">
+           <string>Crystallographic Texture</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QTreeView" name="treeView_Morphology"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QFrame" name="frame_5">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>GENERATE</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_8">
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>SHOW MICROSTRUCTURE</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0" alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="label_8">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <underline>false</underline>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string>CRYSTALLOGRAPHIC TEXTURE GENERATOR</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWizardPage" name="wizardPage">
+   <layout class="QGridLayout" name="gridLayout_18">
+    <item row="0" column="0" alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <underline>false</underline>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string>ANALYZE MICROSTRUCTURE</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QScrollArea" name="scrollArea_3">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>282</width>
+         <height>229</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_26">
+        <item row="0" column="0">
+         <widget class="QTabWidget" name="tabWidget_analyze">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="tab_21">
+           <attribute name="title">
+            <string>Morphology</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_32">
+            <item row="0" column="0">
+             <widget class="QFrame" name="frame_9">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_30">
+               <item row="0" column="0">
+                <widget class="QRadioButton" name="radioButton">
+                 <property name="text">
+                  <string>Grain Size Distribution</string>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QRadioButton" name="radioButton_2">
+                 <property name="text">
+                  <string>Grain Parimeter Distribution</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QRadioButton" name="radioButton_3">
+                 <property name="text">
+                  <string>Grain Circularity</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QRadioButton" name="radioButton_4">
+                 <property name="text">
+                  <string>Anisotropy Rose Diagram</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QPushButton" name="pushButton_4">
+              <property name="text">
+               <string>Show</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_22">
+           <attribute name="title">
+            <string>Crystallography</string>
+           </attribute>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <action name="actionAdd_Sheet_Texture">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Add Sheet Texture</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resourceLIST.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>checkBox_pdelNxy</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_pdelNxy</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>887</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1016</x>
+     <y>220</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dimX2D</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>dimY2D</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>885</x>
+     <y>126</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1016</x>
+     <y>126</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_gr2D</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_gr2D</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>165</x>
+     <y>618</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>432</x>
+     <y>618</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_adotrvector</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_adotrvector</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>97</x>
+     <y>181</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>158</x>
+     <y>211</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>shouldwesave</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>browsepath</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>938</x>
+     <y>337</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1016</x>
+     <y>326</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>shouldwesave</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>framepath</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>938</x>
+     <y>337</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1016</x>
+     <y>390</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>browsepath</sender>
+   <signal>clicked()</signal>
+   <receiver>EvoSim</receiver>
+   <slot>getDir()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1016</x>
+     <y>326</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>831</x>
+     <y>492</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_gr2D_Aniso_Conti_Neigh</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_gr2D_aniso_conti_neigh</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>90</x>
+     <y>161</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>148</x>
+     <y>161</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_gr2D_Aniso_Site_Neigh</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_gr2D_Site_Neigh</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>104</x>
+     <y>173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>148</x>
+     <y>173</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>shouldwesave</sender>
+   <signal>clicked()</signal>
+   <receiver>EvoSim</receiver>
+   <slot>getDir()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>938</x>
+     <y>337</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>611</x>
+     <y>499</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>EvoSim</receiver>
+   <slot>Evolve()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>940</x>
+     <y>608</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>553</x>
+     <y>527</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_thetarvector</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_thetarvector</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>97</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>130</x>
+     <y>172</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_Rrvector</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_Rrvector</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>97</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>130</x>
+     <y>176</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_Rrvector</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>doubleSpinBox_Rrvector</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>97</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>158</x>
+     <y>176</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_thetarvector_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_thetarvector_2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>166</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>166</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_Rrvector_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_Rrvector_2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>169</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>135</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_adotrvector_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_adotrvector_2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_Rrvector_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>doubleSpinBox_Rrvector_2</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>169</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_thetarvector_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_thetarvector_3</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>94</x>
+     <y>182</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>182</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_Grvector</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_Grvector</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>94</x>
+     <y>177</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>177</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_useseed</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>spinBox_myseed</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>885</x>
+     <y>266</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1016</x>
+     <y>268</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>animshow</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>comboBox</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>940</x>
+     <y>526</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1016</x>
+     <y>529</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>EvoSim</receiver>
+   <slot>AnalyzeMorphology()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>118</x>
+     <y>57</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>464</x>
+     <y>698</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_Rab</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_Rab</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>185</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>137</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_Rac</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_Rac</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>191</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>137</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_adotrvec</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textEdit_adotrvec</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>197</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>166</x>
+     <y>197</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_Rab</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>doubleSpinBox_Rab</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>185</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>166</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_Rac</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>doubleSpinBox_Rac</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>191</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>166</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>EvoSim</receiver>
+   <slot>ChooseTexture()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>157</x>
+     <y>170</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>260</x>
+     <y>697</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>animshow</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>framepause</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>872</x>
+     <y>521</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>966</x>
+     <y>559</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>EvoSim</receiver>
+   <slot>GenerateTexture()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>534</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>553</x>
+     <y>689</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>EvoSim</receiver>
+   <slot>ShowMicrostructure()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>762</x>
+     <y>635</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>737</x>
+     <y>689</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Evolve()</slot>
+  <slot>getDir()</slot>
+  <slot>exportdata()</slot>
+  <slot>uniTexGen()</slot>
+  <slot>sheetTexGen()</slot>
+  <slot>fiberTexGen()</slot>
+  <slot>addSheetTex()</slot>
+  <slot>getSetScreenResol()</slot>
+  <slot>setNorm()</slot>
+  <slot>addFiberTex()</slot>
+  <slot>strial()</slot>
+  <slot>updateNames()</slot>
+  <slot>delSheetTex()</slot>
+  <slot>GenerateTexture()</slot>
+  <slot>AnalyzeMorphology()</slot>
+  <slot>TextureStatus()</slot>
+  <slot>ChooseTexture()</slot>
+  <slot>EvolveAsy()</slot>
+  <slot>KillEVOLVE()</slot>
+  <slot>ShowMicrostructure()</slot>
+ </slots>
+</ui>

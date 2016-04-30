@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7e61d0f9-541a-4b29-b540-6091af641930}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>EvoSim.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="evosimcorelibs\libASSIGN.html" />
+    <Content Include="evosimcorelibs\libCOLOR.html" />
+    <Content Include="evosimcorelibs\libCONVERT.html" />
+    <Content Include="evosimcorelibs\libDUMMY.html" />
+    <Content Include="evosimcorelibs\libEVOLVE.html" />
+    <Content Include="evosimcorelibs\libMETROPOLIS.html" />
+    <Content Include="evosimcorelibs\libMORPH.html" />
+    <Content Include="evosimcorelibs\libTEXT.html" />
+    <Content Include="evosimcorelibs\libTEXTURIZE.html" />
+    <Content Include="evosimcorelibs\libTMATRICES.html" />
+    <Content Include="index.html" />
+    <Content Include="ipython.html" />
+    <Content Include="save.txt" />
+    <Content Include="uicomponents\2D.png" />
+    <Content Include="uicomponents\3D.png" />
+    <Content Include="uicomponents\adotr.png" />
+    <Content Include="uicomponents\adott.png" />
+    <Content Include="uicomponents\adottheta.png" />
+    <Content Include="uicomponents\anisotropic.png" />
+    <Content Include="uicomponents\Artheta.png" />
+    <Content Include="uicomponents\atheta.png" />
+    <Content Include="uicomponents\Athetar.png" />
+    <Content Include="uicomponents\btheta.png" />
+    <Content Include="uicomponents\col.png" />
+    <Content Include="uicomponents\colgray.png" />
+    <Content Include="uicomponents\continuous.png" />
+    <Content Include="uicomponents\demo.png" />
+    <Content Include="uicomponents\ellipeq.png" />
+    <Content Include="uicomponents\error.png" />
+    <Content Include="uicomponents\favicon.ico" />
+    <Content Include="uicomponents\favicon.png" />
+    <Content Include="uicomponents\gammain.png" />
+    <Content Include="uicomponents\gammarvector.png" />
+    <Content Include="uicomponents\gp1p2p3.png" />
+    <Content Include="uicomponents\gphi.png" />
+    <Content Include="uicomponents\gposition.png" />
+    <Content Include="uicomponents\gray.png" />
+    <Content Include="uicomponents\gt.png" />
+    <Content Include="uicomponents\icon.png" />
+    <Content Include="uicomponents\iconGrowth.png" />
+    <Content Include="uicomponents\iconNucleation.png" />
+    <Content Include="uicomponents\iconTexture.png" />
+    <Content Include="uicomponents\index.html" />
+    <Content Include="uicomponents\instat.png" />
+    <Content Include="uicomponents\intro.png" />
+    <Content Include="uicomponents\isotropic.png" />
+    <Content Include="uicomponents\mod2pi.png" />
+    <Content Include="uicomponents\ncapphi.png" />
+    <Content Include="uicomponents\ncaprvector.png" />
+    <Content Include="uicomponents\ncaptheta.png" />
+    <Content Include="uicomponents\ndotposition.png" />
+    <Content Include="uicomponents\ndott.png" />
+    <Content Include="uicomponents\omegain.png" />
+    <Content Include="uicomponents\PGAMMAPROPTO.png" />
+    <Content Include="uicomponents\phi1rvector.png" />
+    <Content Include="uicomponents\phi2rvector.png" />
+    <Content Include="uicomponents\phiin.png" />
+    <Content Include="uicomponents\phirvector.png" />
+    <Content Include="uicomponents\POMEGA.png" />
+    <Content Include="uicomponents\PPHIPROPTO.png" />
+    <Content Include="uicomponents\probdelnr.png" />
+    <Content Include="uicomponents\ptheta.png" />
+    <Content Include="uicomponents\PTHETAPROPTO.png" />
+    <Content Include="uicomponents\pthetar.png" />
+    <Content Include="uicomponents\rabyb.png" />
+    <Content Include="uicomponents\rabyc.png" />
+    <Content Include="uicomponents\Ratheta.png" />
+    <Content Include="uicomponents\rbbyc.png" />
+    <Content Include="uicomponents\rhorvector.png" />
+    <Content Include="uicomponents\Rrvector.png" />
+    <Content Include="uicomponents\rtheta.png" />
+    <Content Include="uicomponents\Rthetaa.png" />
+    <Content Include="uicomponents\rvx.png" />
+    <Content Include="uicomponents\rvy.png" />
+    <Content Include="uicomponents\rvz.png" />
+    <Content Include="uicomponents\save.ico" />
+    <Content Include="uicomponents\thetaar.png" />
+    <Content Include="uicomponents\thetain.png" />
+    <Content Include="uicomponents\thetaRa.png" />
+    <Content Include="uicomponents\thetarvector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DeployScripts\PACKAGE.py" />
+    <Compile Include="EvoSim.py" />
+    <Compile Include="EvoSim2.py" />
+    <Compile Include="evosimcorelibs\BUILDSCRIPTS\BUILD_EXT.py" />
+    <Compile Include="evosimcorelibs\cysetup.py" />
+    <Compile Include="evosimcorelibs\IpythonLibs.py" />
+    <Compile Include="evosimcorelibs\plotting.py" />
+    <Compile Include="evosimcorelibs\scrap\mis.py" />
+    <Compile Include="evosimcorelibs\scrap\TEST.py" />
+    <Compile Include="evosimcorelibs\scrap\TESTMH.py" />
+    <Compile Include="evosimcorelibs\scrap\texture.py" />
+    <Compile Include="evosimcorelibs\__init__.py" />
+    <Compile Include="evosimcorelibs\__pycache__\__init__.py" />
+    <Compile Include="random2.py" />
+    <Compile Include="resourceLIST_rc.py" />
+    <Compile Include="scrap\ang_gen.py" />
+    <Compile Include="scrap\guistate.py" />
+    <Compile Include="scrap\purepy.py" />
+    <Compile Include="scrap\random10.py" />
+    <Compile Include="scrap\random11.py" />
+    <Compile Include="scrap\random12.py" />
+    <Compile Include="scrap\random13.py" />
+    <Compile Include="scrap\random14.py" />
+    <Compile Include="scrap\random15.py" />
+    <Compile Include="scrap\random16.py" />
+    <Compile Include="scrap\random2.py" />
+    <Compile Include="scrap\random3.py" />
+    <Compile Include="scrap\random4.py" />
+    <Compile Include="scrap\random5.py" />
+    <Compile Include="scrap\random6.py" />
+    <Compile Include="scrap\random7.py" />
+    <Compile Include="scrap\random8.py" />
+    <Compile Include="scrap\random9.py" />
+    <Compile Include="scrap\randomsave.py" />
+    <Compile Include="scrap\runsoft.py" />
+    <Compile Include="scrap\SETUPWIN.py" />
+    <Compile Include="scrap\Texturizer.py" />
+    <Compile Include="trial.py" />
+    <Compile Include="uicomponents\resourceLIST.py" />
+    <Compile Include="uicomponents\resourceLIST_rc.py" />
+    <Compile Include="uicomponents\__init__.py" />
+    <Compile Include="UPDATE\UPDATE.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DeployScripts" />
+    <Folder Include="evosimcorelibs" />
+    <Folder Include="evosimcorelibs\BUILDSCRIPTS" />
+    <Folder Include="evosimcorelibs\scrap" />
+    <Folder Include="evosimcorelibs\__pycache__" />
+    <Folder Include="scrap" />
+    <Folder Include="uicomponents" />
+    <Folder Include="UPDATE" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

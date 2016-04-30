@@ -1,0 +1,5 @@
+#!/bin/bash
+export PATH="/media/Harsh/python64/lin2/bin:$PATH"
+conda update --all
+conda install -c https://conda.binstar.org/menpo opencv3
+conda install -c asmeurer gcc=4.8.5
